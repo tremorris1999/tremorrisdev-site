@@ -1,0 +1,76 @@
+.accent-panel {
+  min-height: 350px;
+  padding: 0.25rem 2rem;
+  background: radial-gradient(circle at 10% 10%, #f51d98 0%, transparent 20%),
+    radial-gradient(circle at 5% 45%, #6102dc 0%, transparent 20%),
+    radial-gradient(circle at 20% 45%, #02ffffbc 0%, transparent 20%),
+    radial-gradient(circle at 5% 80%, #fc3d45 0%, transparent 20%),
+    radial-gradient(circle at 30% 10%, #fc3d45 0%, transparent 20%),
+    radial-gradient(circle at 55% 45%, #fc3d45 0%, transparent 20%),
+    radial-gradient(circle at 30% 80%, #f51d98 0%, transparent 20%),
+    radial-gradient(circle at 35% 45%, #6102dc 0%, transparent 20%),
+    radial-gradient(circle at 45% 65%, #02ffffbc 0%, transparent 20%),
+    radial-gradient(circle at 50% 10%, #f51d98 0%, transparent 25%),
+    radial-gradient(circle at 85% 10%, #fc3d45 0%, transparent 25%),
+    radial-gradient(circle at 75% 70%, #f51d98 0%, transparent 20%),
+    radial-gradient(circle at 70% 15%, #02ffffbc 0%, transparent 20%),
+    radial-gradient(circle at 55% 80%, #6102dc 0%, transparent 20%),
+    radial-gradient(circle at 100% 50%, #02ffffbc 0%, transparent 20%),
+    radial-gradient(circle at 95% 90%, #6102dc 0%, transparent 20%), #c169ff;
+  background-size: 300% 300%;
+  animation: gradient 45s infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 15% 0%;
+  }
+  25% {
+    background-position: 85% 100%;
+  }
+  37% {
+    background-position: 100% 50%;
+  }
+  50% {
+    background-position: 85% 0%;
+  }
+  75% {
+    background-position: 15% 100%;
+  }
+  87% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 15% 0%;
+  }
+}
+
+.accent-panel p {
+  margin: 0;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .accent-panel {
+    width: 100%;
+    padding: 0;
+  }
+
+  .accent-panel h1 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0.5rem;
+  }
+
+  .accent-panel p {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .accent-panel {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}

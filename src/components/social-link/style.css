@@ -1,0 +1,20 @@
+.social-link {
+  margin: 0 1rem 0 1rem;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem 1.2rem;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  background: #0000006b;
+  color: #ffffff;
+}
+
+.social-link:hover {
+  background: #000000;
+}
+
+.social-link:active {
+  transform: scale(0.95);
+}

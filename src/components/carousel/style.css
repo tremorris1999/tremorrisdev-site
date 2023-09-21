@@ -1,0 +1,35 @@
+.carousel__root {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  overflow-y: visible;
+  border-radius: 10px;
+}
+
+.carousel__track {
+  display: flex;
+  width: 100%;
+  min-height: 150px;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  z-index: 1;
+}
+
+.carousel__controls {
+  z-index: 10;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+
+.carousel__controls span {
+  cursor: pointer;
+  font-size: 2rem;
+  user-select: none;
+}
+
+.carousel__controls span:hover {
+  color: #02ffffbc;
+}

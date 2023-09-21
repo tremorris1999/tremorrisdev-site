@@ -1,0 +1,122 @@
+.page-title {
+  margin-left: 4rem;
+}
+
+.container {
+  margin: 0;
+}
+
+.description {
+  text-align: center;
+  font-style: italic;
+}
+
+.project {
+  margin: 2rem 4rem;
+  padding: 0.25rem 4rem 3rem 4rem;
+  border-radius: 1rem;
+}
+
+.accent-panel .project {
+  background: #0000006b;
+}
+
+.container .project {
+  background: #ffffff0e;
+}
+
+.project-title h1 {
+  margin-bottom: 0;
+}
+
+.project-title h3 {
+  margin-top: 0;
+}
+
+.image {
+  color: white;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 1rem;
+}
+
+.features {
+  margin: 2rem 4rem;
+  margin-bottom: 0;
+}
+
+.features h1 {
+  margin-bottom: 0;
+}
+
+.tech {
+  padding: 2rem;
+  min-width: 200px;
+}
+
+.icon {
+  display: block;
+  font-size: 5rem;
+}
+
+.btn {
+  width: fit-content;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  text-align: center;
+  background-color: #ffffffbb;
+  border-radius: 1rem;
+  color: black;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+}
+
+.accent-panel .btn {
+  background-color: #000000bb;
+  color: white;
+}
+
+.accent-panel .btn:hover {
+  background-color: #000000;
+}
+
+.carousel__root {
+  max-width: 500px;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .project {
+    padding: 1rem 2rem;
+  }
+
+  .accent-panel {
+    padding: 1rem 0 !important;
+  }
+
+  .accent-panel .project {
+    margin: 0 1rem;
+  }
+
+  .container {
+    padding: 1rem 0;
+  }
+
+  .container .project {
+    margin: 0;
+  }
+
+  .features {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .project {
+    margin: 2rem 20rem;
+  }
+}

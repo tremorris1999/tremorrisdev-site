@@ -1,0 +1,213 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  height: 100%;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  line-height: inherit;
+  background-color: #020202;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+span {
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+h4 {
+  color: white;
+}
+
+h5 {
+  color: white;
+}
+
+h6 {
+  color: white;
+}
+
+pre {
+  color: white;
+}
+
+code {
+  color: white;
+}
+
+kbd {
+  color: white;
+}
+
+samp {
+  color: white;
+}
+
+blockquote {
+  color: white;
+}
+
+ul {
+  color: white;
+}
+
+ol {
+  color: white;
+}
+
+dl {
+  color: white;
+}
+
+dd {
+  color: white;
+}
+
+dt {
+  color: white;
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.app-bar {
+  display: flex;
+  justify-content: space-between;
+  height: 3rem;
+  padding: 0 4rem 0 4rem;
+  border-bottom: 2px solid #00000033;
+}
+
+.app-title {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-right: 1rem;
+  width: fit-content;
+}
+
+.app-title .typing {
+  font-size: 1rem;
+  overflow: hidden;
+  border-right: 0.1em solid rgba(255, 255, 255, 0);
+  white-space: nowrap;
+  margin: 0;
+  padding-right: 0.075em;
+  width: fit-content;
+  animation: type 1.5s steps(45, end), blink-caret 0.5s 6;
+}
+
+.app-footer {
+  padding: 2rem 4rem;
+  text-align: center;
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgba(255, 255, 255, 0.811);
+  }
+}
+
+.app-title .cmd {
+  font-weight: bolder;
+  margin-right: 0.5rem;
+}
+
+.app-nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  height: 100%;
+  margin-right: 5%;
+}
+
+.app-nav-links a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 1rem;
+  white-space: nowrap;
+  height: 100%;
+  width: 100%;
+}
+
+.app-nav-links .active {
+  background-color: rgba(255, 255, 255, 0.052);
+}
+
+.app-content {
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .app-bar {
+    margin: 1rem 0 0 0;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+  }
+
+  .app-nav-links {
+    margin: 1rem 0 0 0;
+    height: 2rem;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .app-footer {
+    padding: 1rem 2rem;
+  }
+}
