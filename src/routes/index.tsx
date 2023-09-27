@@ -40,7 +40,6 @@ export default component$(() => {
           />
         </div>
         <div class='stats'>
-          {/* username=tremorris1999&theme=neon&layout=donut&bg_color=0000006B&text_color=FFF&hide_border=true&border_radius=1rem */}
           <GithubLangs
             username='tremorris1999'
             theme='neon'
@@ -60,7 +59,9 @@ export default component$(() => {
               View Portfolio
             </Link>
           </button>
-          <button>View Resume</button>
+          <button onClick$={() => window.open('/resume.pdf')}>
+            View Resume
+          </button>
           <button>
             <Link
               href='/contact'
