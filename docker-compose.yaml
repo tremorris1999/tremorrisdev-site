@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  web-app:
+    restart: unless-stopped
+    image: tremorrisdev:latest
+    build:
+      context: .
+    ports:
+      - "42230:3000"
+    volumes:
+      - /usr/src/tremorrisdev/fs:/usr/src/app/fs
