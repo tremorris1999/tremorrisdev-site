@@ -1,6 +1,8 @@
 import { component$ } from '@builder.io/qwik'
 import AccentPanel from '~/components/accent-panel'
 
+import type { DocumentHead } from '@builder.io/qwik-city'
+
 import './style.css'
 
 export default component$(() => {
@@ -38,3 +40,13 @@ export default component$(() => {
     </>
   )
 })
+
+export const head: DocumentHead = {
+  title: 'Contact — Trevor Morris',
+  meta: [
+    {
+      name: 'description',
+      content: "Trevor Morris's contact page.",
+    },
+  ],
+}

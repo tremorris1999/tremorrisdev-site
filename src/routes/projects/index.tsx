@@ -260,7 +260,7 @@ export default component$(() => {
 })
 
 export const head: DocumentHead = {
-  title: 'Projects | Trevor Morris',
+  title: 'Projects — Trevor Morris',
   meta: [
     {
       name: 'description',
